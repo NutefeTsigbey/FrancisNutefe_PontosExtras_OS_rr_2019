@@ -1,0 +1,13 @@
+O algoritmo do Avestruz é um algoritmo usado para resolver casos de deadlock. 
+Há varias estrategias de resolver deadlock, algumas sendo:
+1.Ignorando o deadlock
+2. Detectando e recuperando. Você deixa acontecer e realizar a ação de recuperar.
+3.Prevenção dinâmica por alocação de recursos. 
+4. Prevenção por eliminição de umas das condições que causa deadlock. 
+
+O algoritmo do Avestruz é baseada no comportamento do avestruz, que na possibilidade de uma tempestade osconde sua cabeça na terra e finge que não tem nenhum problema vindo. Desse mesma maneira quando occorre um deadlock no sistema o algoritmo finge que não occoreu nada.
+
+É sensato usar esse algoritmo se;
+*deadlock raramente occore 
+*é dificil detectar um deadlock
+*o custo de prevenção de deadlock é alto 
